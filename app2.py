@@ -14,11 +14,15 @@ def mike():
 def create():
     if request.method == 'POST':
         name = request.form['name']
+        username = request.form['username']
+        email = request.form['email']
         recording = request.form['recording']
         time = request.form['time']
 
         Post.create(
             name = name,
+            username = username,
+            email = email,
             recording = recording,
             time = time
         )

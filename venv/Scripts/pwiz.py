@@ -1,4 +1,4 @@
-#!C:\Users\nagima\Desktop\flask_second_app\venv\Scripts\python.exe
+#!C:\Users\nagima\Desktop\test_flask_app\venv\Scripts\python.exe
 
 import datetime
 import os

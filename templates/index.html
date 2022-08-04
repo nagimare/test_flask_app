@@ -8,11 +8,16 @@
 </head>
 <body>
     {% for post in posts %}
+    <div style="background-color: blueviolet;
+    border-color: black; width: 20%;">
     <hl>{{post.name}}</hl>
+    <p>{{post.username}}</p>
+    <p>{{post.email}}</p>
     <p>{{post.recording}}</p>
     <p>{{post.time}}</p>
     <p>{{post.date}}</p> 
-    <a href="URL">Click Here To Login</a> 
+    </div>
     {% endfor %}
+    <p><a href="create">Click Here To Login</a></p> 
 </body>
 </html>
